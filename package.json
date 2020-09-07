@@ -44,6 +44,7 @@
     "jsonwebtoken": "^8.5.1",
     "nodemon": "^2.0.3",
     "pg": "^7.3.0",
+    "postgres": "^1.0.2",
     "rate-limiter-flexible": "^2.1.4",
     "reflect-metadata": "^0.1.13",
     "sqlite": "^4.0.7",
