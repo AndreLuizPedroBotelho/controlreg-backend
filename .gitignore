@@ -1,0 +1,11 @@
+.idea/
+.vscode/
+node_modules/
+build/
+tmp/
+temp/
+package-lock.json
+database.sqlite
+coverage
+.env
+dist

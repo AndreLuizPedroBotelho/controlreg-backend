@@ -1,0 +1,8 @@
+{
+  "watch": [
+    "src/",
+    ".env"
+  ],
+  "ext": ".ts, .css",
+  "exec": "node  -r ts-node/register -r tsconfig-paths/register"
+}
