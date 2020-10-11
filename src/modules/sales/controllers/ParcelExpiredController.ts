@@ -27,15 +27,8 @@ export default class ParcelExpiredController {
         maturityDate: 'ASC',
         id: 'DESC',
       },
-      /*    where: {
-        maturityDate: LessThan(new Date()),
-        paid: false,
-        , */
       where: (qb: SelectQueryBuilder<any>) => {
-        qb.where({
-          type: 'parsel_sale',
-        })
-          .andWhere('parsel_sale.maturity_date< :maturityDate', {
+        qb.where('parsel_sale.maturity_date< :maturityDate', {
             maturityDate: new Date(),
           })
           .andWhere('parsel_sale.paid = false')

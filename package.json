@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
-    "dev": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/server.ts",
+    "dev": "ts-node-dev --inspect --ignore-watch node_modules src/server.ts",
     "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
     "test": "jest --runInBand"
   },
@@ -55,3 +55,4 @@
     "typeorm": "^0.2.24"
   }
 }
+
